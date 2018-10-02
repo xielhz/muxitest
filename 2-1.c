@@ -6,9 +6,10 @@ int main(void)
     printf("shuo1:");    scanf("%d",&a);
     printf("shuo2:");    scanf("%d",&b);
 
-    printf("它们乘积为：\n",a*b);
+    printf("a是b的%d%%：\n",a%b*100);
    
     return (0);
 }
+
 
 
